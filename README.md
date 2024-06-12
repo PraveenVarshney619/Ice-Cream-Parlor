@@ -16,7 +16,7 @@ Welcome to the Ice Cream Parlor Application! This Python application simulates a
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.0
 - `tkinter` library (usually included with Python installation)
 - SQLite
 
