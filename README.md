@@ -22,11 +22,48 @@ Welcome to the Ice Cream Parlor Application! This Python application simulates a
 
 ### Installation
 
-1. Open the project in PyCharm:
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/PraveenVarshney619/Ice-Cream-Parlor.git
+    ```
+
+2. Open the project in PyCharm:
 
     - Launch PyCharm.
     - Select `Open` from the welcome screen or `File > Open` from the menu.
     - Navigate to the cloned `ice-cream-parlor` directory and select it.
+
+3. Create a virtual environment (optional but recommended):
+
+    - Open the terminal in PyCharm.
+    - Run the following command:
+
+        ```bash
+        python3 -m venv venv
+        ```
+
+4. Activate the virtual environment:
+
+    - **On Windows**:
+
+        ```bash
+        venv\Scripts\activate
+        ```
+
+    - **On macOS and Linux**:
+
+        ```bash
+        source venv/bin/activate
+        ```
+
+5. Install dependencies:
+
+    - In PyCharm's terminal, run:
+
+        ```bash
+        pip install -r requirements.txt
+        ```
 
 ### Running the Application
 
