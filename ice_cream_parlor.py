@@ -30,12 +30,12 @@ def create_database():
                         name TEXT NOT NULL
                     )''')
 
-    cursor.execute("DROP TABLE IF EXISTS cart")  # Added line to drop the existing cart table
+    cursor.execute("DROP TABLE IF EXISTS cart")  
     cursor.execute('''CREATE TABLE cart (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         product_name TEXT NOT NULL,
                         price REAL NOT NULL
-                    )''')  # Recreating the cart table with the correct schema
+                    )''') 
 
     conn.commit()
     conn.close()
